@@ -1,0 +1,15 @@
+{
+    "blend": {
+        "func": "add",
+        "srcrgb": "srcalpha",
+        "dstrgb": "1-srcalpha"
+    },
+    "vertex": "untitled7:shaders/program/rounded_corners",
+    "fragment": "untitled7:shaders/program/rounded_corners",
+    "attributes": [ "Position", "UV" ],
+    "uniforms": [
+        { "name": "DiffuseSampler", "type": "sampler", "count": 1, "values": [ 0 ] },
+        { "name": "OutSize", "type": "float", "count": 2, "values": [ 1.0, 1.0 ] },
+        { "name": "Radius", "type": "float", "count": 1, "values": [ 10.0 ] }
+    ]
+}
