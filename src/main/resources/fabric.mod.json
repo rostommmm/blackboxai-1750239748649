@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "untitled7",
+  "version": "1.0.0",
+  "name": "untitled7",
+  "description": "A simple visual mod",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/untitled7/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.buy.untitled7.client.VisualMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.7",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
